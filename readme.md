@@ -2,7 +2,7 @@
 
 ## 简介
 
-通过输入srt文件，获取合成的音频文件
+通过输入srt文件，获取合成的音频文件，支持中英混合输入
 
 srt文件需要放在 `srt\` 目录下
 
@@ -31,7 +31,7 @@ pip install paddlepaddle -i https://mirror.baidu.com/pypi/simple
 然后安装paddlespeech和其他依赖
 
 ```
-pip install paddlepaddle -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install paddlespeech -i https://pypi.tuna.tsinghua.edu.cn/simple
 pip install pysrt pydub -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
@@ -44,3 +44,5 @@ srt文件放好之后运行 `main.py`
 首次运行的时候会下载模型，下次就不会那么慢了
 
 模型存在 `~\paddlespeech\` 路径下
+
+要么自己造轮子，要么pip install一个停车场，import一辆车，然后用一个轮子
