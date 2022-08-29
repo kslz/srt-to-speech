@@ -12,7 +12,6 @@ def main():
     check_mkdir(srtpath)
     check_mkdir(wavpath)
 
-    quit(0)
     mysrt = pysrt.open("srt/1.srt")
 
     outwav = AudioSegment.empty()
