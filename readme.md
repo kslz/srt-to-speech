@@ -43,6 +43,6 @@ srt文件放好之后运行 `main.py`
 
 首次运行的时候会下载模型，下次就不会那么慢了
 
-模型存在 `~\paddlespeech\` 路径下
+模型存在 `~\.paddlespeech\` 路径下
 
 要么自己造轮子，要么pip install一个停车场，import一辆车，然后用一个轮子
